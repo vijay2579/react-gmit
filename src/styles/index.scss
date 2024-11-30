@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+@import "./variables";
+@import "./mixins";
+@import "./Components/Header";
+@import "./Components/Content"

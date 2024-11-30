@@ -1,0 +1,25 @@
+.header {
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: $text-color-grey;
+    padding: 5px;
+    li {
+      a {
+        padding: 10px;
+        text-decoration: none;
+        color: $text-color-white;
+        text-transform: uppercase;
+
+        &:hover {
+          color: $text-color-red;
+        }
+      }
+    }
+  }
+
+  .header-img {
+    background-image: url("../../images/header.png");
+    height: 240px;
+  }
+}
